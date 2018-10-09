@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <BrowserRouter>
-          <Switch>
+          <Switch>            
             <Route exact path="/" component={MyList} />
             <Route exact path="/photo" component={MyPhoto} />
           </Switch>
